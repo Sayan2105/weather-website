@@ -1,0 +1,178 @@
+.bg-img-fe{
+    /* background: fixed */
+    background-size: 100rem 75rem;
+}
+
+/* Styles for the boxes */
+.box_one,
+.box_two,
+.box_three {
+    width: 50vw;
+    text-align: left;
+    margin: 50px auto;
+    box-shadow: rgba(40, 89, 93, 0.677) 10px 10px 40px;
+}
+
+.box_two,
+.box_three {
+    margin: 25px auto 0px;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+
+.one {
+    color: azure;
+    background-color: rgb(7, 3, 44);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 5px 10px 5px 15px;
+}
+
+
+.temp_div {
+    padding-right: 50px; 
+}
+
+
+h3 {
+    font-size: 1.125rem;
+    margin: 0px;
+}
+
+
+.shadowLine {
+    position: relative;
+    padding-left: 10px;
+    border-left: 1px solid #d1d5db;
+}
+
+/* Styling for year and date section */
+.year_date {
+    position: absolute;
+    bottom: 30px;
+}
+
+/* Styling for the main content section */
+.two {
+    background-image: linear-gradient(90deg, rgb(64, 201, 211), #95b5e7);
+    color: #000000;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px 10px 10px 15px;
+}
+
+/* Styling for weather icon */
+.weather_icon {
+    width: 100px;
+    height: 100px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+/* Styling for images */
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* Styling for temperature in main content */
+.temp_div>h1 {
+    margin-left: 40px;
+    font-size: 4rem;
+    font-weight: 500;
+    line-height: 1;
+    color: #F4D160;
+}
+
+/* Styling for the secondary content section */
+.three {
+    padding: 10px 10px 10px 15px; 
+    background-image: linear-gradient(90deg, rgb(64, 201, 211), #95b5e7);
+    border-radius: 10px;
+}
+
+/* Styling for sub-three div */
+.sub-three {
+    display: flex;
+    padding: 0px 8px 0px 8px; 
+}
+
+/* Styling for box two icon */
+.box_two_icon {
+    display: flex;
+}
+
+/* Styling for left line */
+.left_line {
+    border-left: 1px solid #d1d5db; 
+}
+
+/* Styling for icons in secondary content */
+.three svg {
+    margin-right: 10px;
+    width: 2vw;
+    height: 3vh; 
+    color: #F4D160;
+}
+
+/* Styling for images and svgs */
+img,
+svg {
+    vertical-align: baseline;
+}
+
+/* Styling for sub-three div with h3 */
+.sub-three>div>h3 {
+    text-align: center;
+    font-size: 190%; 
+    margin-bottom: 5px;
+    color: #4C4C6D;
+}
+
+/* Styling for paragraph elements */
+.four>div>p,
+.sub1 p,
+.sub2 p,
+.sub3 p,
+.sub4 p {
+    margin-bottom: 0;
+}
+
+/* Styling for sub-four paragraph */
+.four>.sub-four>p {
+    color: antiquewhite;
+}
+
+/* Styling for sub-three div with nested h2 */
+.sub-three>div>div>h2 {
+    font-size: 1.7vw;
+    color: #000000;
+}
+
+/* Styling for the fourth content section */
+.four {
+    padding: 10px 10px 10px 25px; /* Padding for content */
+    background: linear-gradient( rgb(64, 201, 211), #48689b);
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* Styling for sub-four div */
+.sub-four {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Styling for sub content sections */
+.sub1,
+.sub2,
+.sub3,
+.sub4 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0%;
+    margin: 0%;
+}
